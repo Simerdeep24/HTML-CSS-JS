@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#F5F7FA;
+}
+.header{
+     display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #1F1F1F;
+    color: #F5F5F5;
+    height: 100px;
+    margin-bottom: 30px;
+}
+h1{
+    font-family: 'STLiti';
+    font-weight: 500;
+    font-size: 50px;
+    letter-spacing: 1px; 
+}
+span{
+    font-family: 'Comic Sans MS';
+    font-weight: bold;
+    letter-spacing: 1px; 
+}
+
+.container{
+    display:block;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    height:fit-content;
+    padding: 0 auto;
+    margin-bottom:100px;
+}
+.about{
+    width: 100%;
+    background-color: #FFFFFF;
+    color: #333333;
+    margin-bottom:20px;
+    height:fit-content;
+    padding-bottom: 30px;
+}
+.education{
+    width: 100%;
+    background-color:#4CAF50;
+    color: antiquewhite;
+    margin-bottom:30px;
+    height: 150px;
+    padding-bottom: 30px;
+}
+.skills{
+    width: 100%;
+    background-color: #007ACC;
+    color: antiquewhite;
+    margin-bottom:30px;
+    height:fit-content;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+.projects{
+    width: 100%;
+    background-color: #FF7043;
+    color: antiquewhite;
+    margin-bottom:30px;
+    height:fit-content;
+    padding-bottom: 30px;
+}
+.contact{
+    width: 100%;
+    background-color: #673AB7;
+    color: antiquewhite;
+    height:fit-content;
+    margin-bottom:30px;
+    padding-bottom: 30px;
+}
+
+.footer{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    background-color: #222;
+    color: antiquewhite;
+    height: 70px;
+    bottom: 0;
+}
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    padding: 5px;
+}
+p{
+    font-family: 'Comic Sans MS';
+    font-size: larger;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #222;
+    padding: 5px;
+    margin: 15px auto;
+    margin-bottom: 15px;
+    width: 70%;
+    border-radius: 5px;
+}
+.contact a {
+    color: #ddc43a; /* gold/yellow accent */
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact a:hover {
+    color: #7e6d0a; /* turn white on hover */
+    text-decoration: underline;
+}
+
+
